@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        {{> header}}
+        <main>
+
+            <form action="cargar" method="post">
+               
+                    {{> flash}}
+               
+                <div>
+                    <label for="txtNombre"> Nombre Curso:<input type="text"
+                            id="txtNombre" name="nombre" ></label>
+                </div>
+                <div>
+                    <label for="txtCodigo"> Código Curso:<input type="text"
+                            id="txtCodigo" name="codigo"></label>
+                </div>
+                <div>
+                    <label for="nbmCantidad"> Cantidad Alumnos:<input
+                            type="number" id="nbmCantidad" name="cantidad"></label>
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar ">
+                </div>
+            </form>
+        </main>
+
+        {{> footer}}
+
+        <script src="main.js"></script>
+    </body>
+</html>

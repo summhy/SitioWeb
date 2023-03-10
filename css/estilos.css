@@ -1,0 +1,42 @@
+body {
+  background-color: lightgray;
+}
+
+header,
+footer {
+  background-color: lightgreen;
+text-align: center;
+  height: 50px;
+}
+
+main {
+  background-color: linen;
+  height: 500px;
+}
+
+header,
+footer,
+main {
+  margin-top: 10px;
+  border-radius: 25px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+form div{
+    display: flex;
+    padding: 20px;
+}
+
+form{
+    padding: 20px;
+}
+
+
+.flash{
+    color: green;
+}
+.error{
+  color: red;
+}
